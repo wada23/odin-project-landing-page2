@@ -44,10 +44,9 @@
 }
 
 .list {
-    list-style: none;
     display: flex;
     flex-direction: row;
-
+    list-style: none;
 }
 
 .main {
@@ -86,22 +85,27 @@ p {
 .info-container {
     display: flex;
     flex-direction: column;
-    height: 500px;
+    height: 400px;
     align-items: center;
-}
-
-.small-img {
-    display: flex;
-    width: 50%;
-    border-radius: 8px;
+    justify-content: center;
 }
 
 .info-main-text {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
+}
+
+.img-list {
+    display: flex;   
+}
+
+.small-img {
+    display: flex;
+    margin:0px 30px 0px 30px;
+    width: 150px;
+    border-radius: 8px;
 }
 
 .quote {
@@ -112,7 +116,6 @@ p {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
-    
 }
 
 .quote-container {
