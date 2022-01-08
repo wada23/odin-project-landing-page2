@@ -171,6 +171,15 @@ button {
     border: none;
 }
 
+.copyright-container {
+    background-color: rgb(5, 39, 18);
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    color: #F9FAF8;
+}
+
 
 
 
